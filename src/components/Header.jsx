@@ -7,6 +7,7 @@ import { Container } from "./Container";
 import { useSelector, useDispatch } from "react-redux";
 import { themeSelector } from "../store/theme/theme-selectors";
 import { setTheme } from "../store/theme/theme-action";
+import { deleteControl } from "../store/controls/controls-action";
 
 const HeaderEl = styled.header`
   box-shadow: var(--shadow);
@@ -45,12 +46,11 @@ export const Header = () => {
   useEffect(() => {
     document.body.setAttribute("data-theme", theme);
   }, [theme]);
-
   return (
     <HeaderEl>
       <Container>
         <Wrapper>
-          <Title>Where is the world?</Title>
+          <Title onClick={() => dispatch(deleteControl())}>Where is the world?</Title>
           <ModeSwitcher onClick={toggleTheme}>
             {theme === "light" ? (
               <IoMoonOutline size="14px" />

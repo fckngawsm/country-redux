@@ -1,4 +1,4 @@
-import { SET_REGION, SET_SEARCH } from "./controls-contants";
+import { SET_REGION, SET_SEARCH, CLEAR_CONTROL } from "./controls-contants";
 
 export const setSearch = (search) => ({
   type: SET_SEARCH,
@@ -7,4 +7,7 @@ export const setSearch = (search) => ({
 export const setRegion = (region) => ({
   type: SET_REGION,
   payload: region,
+});
+export const deleteControl = () => ({
+  type: CLEAR_CONTROL,
 });

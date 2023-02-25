@@ -33,7 +33,6 @@ export const Controls = () => {
 
   const handleChange = (reg) => {
     dispatch(setRegion(reg?.value || ""));
-    console.log(reg.value);
   };
   return (
     <Wrapper>
