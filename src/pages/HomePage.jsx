@@ -10,15 +10,15 @@ import {
 } from "../store/countries/countries-selectors";
 import { useEffect } from "react";
 import { loadingCountries } from "../store/countries/countries-action";
-import { selectSearch } from "../store/controls/controls-selectors";
+import { selectControlAll } from "../store/controls/controls-selectors";
 
 export const HomePage = () => {
   const { status, error, length } = useSelector(selectCountriesinfo);
-  const search = useSelector(selectSearch);
+  const {search , region} = useSelector(selectControlAll);
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const countries = useSelector((state) =>
-    selectVisibleCountries(state, { search })
+    selectVisibleCountries(state, { search , region})
   );
   useEffect(() => {
     if (!length) {

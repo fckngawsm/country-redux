@@ -6,7 +6,6 @@ import { BrowserRouter } from "react-router-dom";
 import "./index.css";
 import App from "./components/App";
 import { store } from "./store";
-
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
