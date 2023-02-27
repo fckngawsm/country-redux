@@ -5,6 +5,7 @@
 ## Технологии
 
 - React
+- React-router-dom
 - Styled-Components
 - Redux
 - Redux-thunk
