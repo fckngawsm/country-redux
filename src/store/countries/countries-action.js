@@ -5,11 +5,11 @@ export const setCountries = (country) => ({
   payload: country,
 });
 
-export const SetLoading = () => ({
+const SetLoading = () => ({
   type: SET_LOADING,
 });
 
-export const SetError = (err) => ({
+const SetError = (err) => ({
   type: SET_ERROR,
   payload: err,
 });

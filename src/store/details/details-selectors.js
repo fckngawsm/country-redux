@@ -1,0 +1,1 @@
+export const selectAllCountry = state => state.details
