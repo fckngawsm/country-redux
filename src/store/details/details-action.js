@@ -3,6 +3,7 @@ import {
   SET_LOADING,
   SET_COUNTRY,
   CLEAR_DETAILS,
+  SET_NEIGHNOURS,
 } from "./details-constants";
 
 const setLoading = () => ({
@@ -23,6 +24,11 @@ export const clearDetails = () => ({
   type: CLEAR_DETAILS,
 });
 
+export const setNeighbours = (neighbours) => ({
+  type: SET_NEIGHNOURS,
+  payload: neighbours,
+});
+
 export const loadingCountryDetails =
   (name) =>
   (dispatch, _, { api, client }) => {
@@ -31,4 +37,15 @@ export const loadingCountryDetails =
       .get(api.searchByCountry(name))
       .then(({ data }) => dispatch(setCountry(data[0])))
       .catch((err) => dispatch(setError(err.message)));
+  };
+
+export const loadingNeighnoursDetails =
+  (code) =>
+  (dispatch, _, { api, client }) => {
+    client
+      .get(api.filterByCode(code))
+      .then(({ data }) =>
+        dispatch(setNeighbours(data.map((country) => country.name)))
+      )
+      .catch(console.error);
   };
