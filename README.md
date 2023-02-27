@@ -26,6 +26,10 @@
 - Переключение тем : светлой/темной
   ![theme](https://cdn.discordapp.com/attachments/1050548089179619479/1079754939993178142/theme.png)
 
-#### Дополнительная информация
+#### GITHUB-PAGES
+
+[source](https://fckngawsm.github.io/)
+
+##### Дополнительная информация
 
 [Откуда была взята идея?](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca)
