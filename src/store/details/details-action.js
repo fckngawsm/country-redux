@@ -1,4 +1,9 @@
-import { SET_ERROR, SET_LOADING, SET_COUNTRY } from "./details-constants";
+import {
+  SET_ERROR,
+  SET_LOADING,
+  SET_COUNTRY,
+  CLEAR_DETAILS,
+} from "./details-constants";
 
 const setLoading = () => ({
   type: SET_LOADING,
@@ -12,6 +17,10 @@ const setError = (err) => ({
 export const setCountry = (country) => ({
   type: SET_COUNTRY,
   payload: country,
+});
+
+export const clearDetails = () => ({
+  type: CLEAR_DETAILS,
 });
 
 export const loadingCountryDetails =

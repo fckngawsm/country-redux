@@ -1,7 +1,7 @@
-export const selectCountriesinfo = (state) => ({
+export const selectCountriesInfo = (state) => ({
   status: state.countries.status,
   error: state.countries.error,
-  length: state.countries.length,
+  length: state.countries.list.length,
 });
 
 export const selectVisibleCountries = (state, { search = "", region = "" }) => {
