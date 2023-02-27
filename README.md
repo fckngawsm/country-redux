@@ -1,3 +1,19 @@
-# Frontend Mentor - REST Countries API with color theme switcher solution
+# REST Countries API with color theme switcher
+Проект содержащй информацию о многих странах!
 
-This is a solution to the [REST Countries API with color theme switcher challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca).
+# Технологии:
+* React
+* Styled-Components
+* Redux
+* Redux-thunk
+* Redux-persist
+* API-REST
+
+# Возможности
+* Смотреть все страны из API на главной странице
+<img src="../mainPage.png">
+* Поиск страны по input полю
+* Фильтровать страны по региону
+* При нажатие на страну, выведение более подробной информации на отдельной странице
+* Просмотр стран-соседей
+* Переключение тем : светлой/темной
