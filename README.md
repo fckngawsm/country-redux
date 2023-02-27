@@ -28,7 +28,7 @@
 
 #### GITHUB-PAGES
 
-[pages](https://fckngawsm.github.io/)
+[pages](https://fckngawsm.github.io/country-redux/)
 
 ##### Дополнительная информация
 
