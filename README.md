@@ -1,19 +1,27 @@
 # REST Countries API with color theme switcher
+
 Проект содержащй информацию о многих странах!
 
-# Технологии:
-* React
-* Styled-Components
-* Redux
-* Redux-thunk
-* Redux-persist
-* API-REST
+## Технологии
 
-# Возможности
-* Смотреть все страны из API на главной странице
-<img src="../mainPage.png">
-* Поиск страны по input полю
-* Фильтровать страны по региону
-* При нажатие на страну, выведение более подробной информации на отдельной странице
-* Просмотр стран-соседей
-* Переключение тем : светлой/темной
+- React
+- Styled-Components
+- Redux
+- Redux-thunk
+- Redux-persist
+- API-REST
+
+### Возможности
+
+- Смотреть все страны из API на главной странице
+  ![main](https://cdn.discordapp.com/attachments/1050548089179619479/1079752932884496486/mainPage.png)
+- Поиск страны по input полю
+  ![search](https://cdn.discordapp.com/attachments/1050548089179619479/1079753443868160051/search.png)
+- Фильтровать страны по региону
+  ![region](https://media.discordapp.net/attachments/1050548089179619479/1079753737201000549/region.png?width=793&height=305)
+- При нажатие на страну, выведение более подробной информации на отдельной странице
+  ![details](https://media.discordapp.net/attachments/1050548089179619479/1079754080647397426/details.png?width=793&height=396)
+- Просмотр стран-соседей
+  ![nbgh](https://cdn.discordapp.com/attachments/1050548089179619479/1079754565332766830/nbgh.png)
+- Переключение тем : светлой/темной
+  ![theme](https://cdn.discordapp.com/attachments/1050548089179619479/1079754939993178142/theme.png)
