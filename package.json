@@ -2,7 +2,7 @@
   "name": "countries-flags",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://fckngawsm.gitgub.io/country-redux",
+  "homepage": "https://fckngawsm.gitgub.io/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
     "axios": "^0.22.0",

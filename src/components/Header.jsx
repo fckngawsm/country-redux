@@ -26,16 +26,14 @@ const Title = styled(Link).attrs({
 `;
 
 export const Header = () => {
-  const cleanUp = useCleanUp()
+  const cleanUp = useCleanUp();
   return (
     <HeaderEl>
       <Container>
         <Wrapper>
-          <Title onClick={cleanUp}>
-            Where is the world?
-          </Title>
+          <Title onClick={cleanUp}>Where is the world?</Title>
+          <ThemeSwitcher />
         </Wrapper>
-        <ThemeSwitcher />
       </Container>
     </HeaderEl>
   );
