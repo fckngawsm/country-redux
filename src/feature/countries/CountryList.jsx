@@ -8,6 +8,7 @@ import { useCountries } from "./use-countries";
 function CountryList() {
   const navigate = useNavigate();
   const [{ status, error }, countries] = useCountries();
+
   return (
     <>
       {error && <h2>Can't fetch data</h2>}
