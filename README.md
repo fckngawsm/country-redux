@@ -7,7 +7,7 @@
 - React
 - React-router-dom
 - Styled-Components
-- Redux
+- Redux(RTK)
 - Redux-thunk
 - Redux-persist
 - API-REST
