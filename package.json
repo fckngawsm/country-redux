@@ -5,6 +5,9 @@
   "homepage": "https://fckngawsm.gitgub.io/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "@types/styled-components": "^5.1.26",
     "axios": "^0.22.0",
     "lodash.throttle": "^4.1.1",
     "react": "^17.0.2",
